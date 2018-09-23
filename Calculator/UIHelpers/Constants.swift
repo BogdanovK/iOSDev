@@ -10,7 +10,7 @@ import UIKit
 
 
 /**
- Константи для построения UI
+ Константы для построения UI
  */
 class Constants: UIView {
 
