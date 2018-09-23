@@ -216,6 +216,8 @@ class ViewController: UIViewController, DigitalButtonRecieverProtocol, Operation
         self.currentOperation = .multiple
         if let result = self.result {
             let numberFromScreen = Float(self.label.text!)!
+            self.result = numberFromScreen *  result
+            
             // Задание: умножение
             
         }
