@@ -203,7 +203,7 @@ class ViewController: UIViewController, DigitalButtonRecieverProtocol, Operation
         if let result = self.result {
             let numberFromScreen = Float(self.label.text!)!
             // Задание: деление
-            
+            self.result = result / numberFromScreen 
         }
         else
         {
