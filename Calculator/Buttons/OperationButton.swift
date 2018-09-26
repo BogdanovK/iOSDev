@@ -43,6 +43,8 @@ class OperationButton: UIButton {
         }
     }
     
+    
+    
     private func stringForOperation(_ operation: Operation) -> String {
         switch operation {
         case .noOperation:
